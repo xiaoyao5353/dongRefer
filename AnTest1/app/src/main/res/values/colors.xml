@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#008577</color>-->
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffffff</color>
+    <color name="white1">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gred">#838383</color>
+    <color name="orrange">#00ff00</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="setting_item_focus">#43c0ff</color>
+    <color name="button_txt_color">#1d2c39</color>
+    <color name="cache_color_hint_color">#00000000</color>
+    <color name="dark">#6B6B6B</color>
+    <color name="yellow">#ffd800</color>
+    <color name="red">#ff0000</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000ff</color>
+    <!-- seekBar color -->
+    <color name="seekbar_bg_color">#606060</color>
+    <color name="seekbar_progress_fill_focus_color">#ffd800</color>
+    <color name="seekbar_progress_fill_color">#898989</color>
+    <color name="seekbar_progress_fill_enable_color">#ffffff</color>
+
+    <color name="cache_color_hint">#00000000</color>
+    <color name="item_unselected">#D6DDE5</color>
+    <color name="menu_view_text">#ff9900</color>
+    <color name="progress_view_text">#6B6B6B</color>
+    <color name="circle_view_gred">#3b454b</color>
+    <color name="circle_view_blue">#25a8f2</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="transparent_full" >#0000</color>
+    <color name="back_color">#BB202125</color>
+    <color name="selct_back_color">#3b454b</color>
+    <color name="white_smoke_color">#DCDCDC</color>
+    <color name="title_text_background">#DD1B1C1E</color>
+
+    <!-- PIN dialog -->
+    <color name="pin_dialog_background">#384248</color>
+    <color name="pin_dialog_text_color">#C0EEEEEE</color>
+    <color name="pin_number_picker_text_color">#FFEEEEEE</color>
+    <color name="pin_number_picker_focused_background">#4B5459</color>
+
+    <!-- new -->
+    <color name="background_translucent_dark">#e0000000</color>
+    <color name="notselect">#E7E7E7</color>
+    <color name="select">#FF6600</color>
+    <color name="backgr">#999999</color>
+    <color name="mac_g">#68dd0e</color>
+    <color name="mac_r">#dd0e12</color>
+    <color name="enable_text_color">#FFFFFF</color>
+    <color name="child_text_color">#999999</color>
+    <color name="disable_text_color">#AAAAAA</color>
+</resources>
