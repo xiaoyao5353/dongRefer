@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion "30.0.2"
     defaultConfig {
-        applicationId "com.dong.demo2"
+        applicationId "com.dong.ui"
         minSdkVersion 28
         targetSdkVersion 28
         versionCode 1

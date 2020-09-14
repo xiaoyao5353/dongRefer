@@ -1,0 +1,51 @@
+package com.dong.ui.widget;
+
+import android.content.Context;
+import android.graphics.drawable.Drawable;
+import android.util.AttributeSet;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+
+import com.dong.ui.R;
+
+public class ColorNoteLinearLayout extends LinearLayout {
+    ImageView imageView;
+    TextView textView;
+
+    public ColorNoteLinearLayout(Context context, int color, String labelStr) {
+        super(context);
+        LayoutInflater mInflater = LayoutInflater.from(context);
+        View myView = mInflater.inflate(R.layout.color_item, null);
+        addView(myView);
+
+        imageView = (ImageView) myView.findViewById(R.id.item_img_color);
+        imageView.setBackgroundColor(color);
+        textView = (TextView) myView.findViewById(R.id.item_color_label);
+        textView.setText(labelStr != null ? labelStr : "");
+    }
+
+    public ColorNoteLinearLayout(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        LayoutInflater mInflater = LayoutInflater.from(context);
+        View myView = mInflater.inflate(R.layout.color_item, null);
+        addView(myView);
+
+        imageView = (ImageView) myView.findViewById(R.id.item_img_color);
+        textView = (TextView) myView.findViewById(R.id.item_color_label);
+    }
+
+    public void setImage(Drawable drawable) {
+        if (imageView != null) {
+            imageView.setImageDrawable(drawable);
+        }
+    }
+
+    public void setLabel(String str) {
+        if (textView != null) {
+            textView.setText(str);
+        }
+    }
+}
